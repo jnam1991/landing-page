@@ -1,15 +1,17 @@
 body {
     margin: 0;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header {
-
+    background-color: #1F2937;
 }
 
-.intro {
-
+.main {
+    background-color: #1F2937;
 }
 
 .info {
@@ -17,13 +19,13 @@ body {
 }
 
 .quote {
-
+    background-color: #E5E7EB;
 }
 
 .cta {
-
+    background-color: #3882F6;
 }
 
 .footer {
-    
+    background-color: #1F2937;
 }
