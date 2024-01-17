@@ -3,11 +3,12 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    flex: 1;
 }
 
 .header {
     background-color: #1F2937;
+    display: flex;
 }
 
 .main {
@@ -23,9 +24,14 @@ body {
 }
 
 .cta {
+    background-color: white;
+}
+
+.cta.container {
     background-color: #3882F6;
 }
 
 .footer {
     background-color: #1F2937;
+    margin-top: auto;
 }
