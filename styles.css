@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
+    font-family: "Roboto", sans-serif;
 }
 
 .header {
@@ -11,16 +12,53 @@ body {
     display: flex;
 }
 
+.logo span {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main .subtext,
+.header ul {
+    padding: 0;
+    font-size: 18px;
+    color: #E5E7EB
+}
+
 .main {
     background-color: #1F2937;
 }
 
-.info {
+.main .text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
+.main button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.info .text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .quote {
     background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .text {
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .cta {
@@ -31,7 +69,22 @@ body {
     background-color: #3882F6;
 }
 
+.cta button {
+    background-color: #3882F6;
+    border-color: white;
+}
+
+.cta .text {
+    color: white;
+    font-weight: bold;
+}
+
+.cta .subtext {
+    color: white;
+}
+
 .footer {
     background-color: #1F2937;
     margin-top: auto;
+    color: white;
 }
