@@ -1,3 +1,29 @@
 body {
     margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+
+}
+
+.intro {
+
+}
+
+.info {
+
+}
+
+.quote {
+
+}
+
+.cta {
+
+}
+
+.footer {
+    
 }
