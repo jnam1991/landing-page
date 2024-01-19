@@ -11,11 +11,29 @@ body {
     background-color: #1F2937;
     display: flex;
     height: 10vh;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    padding: 0px;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.logo,
+.logo span {
+    
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
     height: auto;
-    width: 100px;
+    width: 75px;
 }
 
 .logo span {
@@ -33,7 +51,11 @@ body {
 .main {
     background-color: #1F2937;
     height: 20vh;
+    border: red 1px solid;
+    display: flex;
 }
+
+
 
 .main img {
     height: auto;
@@ -44,6 +66,11 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    border: blue 1px solid;
+}
+
+.main .subtext {
+    border: green 1px solid;
 }
 
 .main button {
