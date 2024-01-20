@@ -13,6 +13,7 @@ body {
     height: 10vh;
     justify-content: space-between;
     padding: 0 50px;
+    gap: 20px;
 }
 
 .header ul {
@@ -51,39 +52,39 @@ body {
 
 .main {
     background-color: #1F2937;
-    height: 20vh;
-    border: red 1px solid;
+    
     display: flex;
+    padding: 50px;
 }
 
 .main-text {
     width: auto;
     display: flex;
     flex-direction: column;
-    
+    margin-right: 25px;
+    gap: 10px;
 }
 
 .main img {
     height: auto;
-    width: 300px;
+    max-width: 320px;
 }
 
 .main .text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
-    border: blue 1px solid;
-}
-
-.main .subtext {
-    border: green 1px solid;
 }
 
 .main button {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    
+    width: 75px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    white-space: nowrap;
 }
 
 .info {
