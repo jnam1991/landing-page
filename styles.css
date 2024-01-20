@@ -88,8 +88,9 @@ body {
 }
 
 .info {
-    height: 20vh;
     display: flex;
+    flex-direction: column;
+    
 }
 
 .info img {
@@ -97,10 +98,19 @@ body {
     width: 150px;
 }
 
+.info-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+}
+
 .info .text {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
+    margin: 25px;
 }
 
 .quote {
