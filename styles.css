@@ -12,7 +12,7 @@ body {
     display: flex;
     height: 10vh;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 100px;
     gap: 20px;
 }
 
@@ -53,7 +53,7 @@ body {
 .main {
     background-color: #1F2937;
     display: flex;
-    padding: 50px;
+    padding: 50px 100px;
 }
 
 .main-text {
@@ -118,8 +118,10 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    height: 20vh;
+    padding: 50px 200px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .quote p {
@@ -131,7 +133,11 @@ body {
 .quote .text {
     font-weight: bolder;
     color: #1F2937;
+    align-self: flex-end;
+    margin-top: -26px;
 }
+
+.quote
 
 .cta {
     background-color: white;
