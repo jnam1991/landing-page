@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     flex: 1;
     font-family: "Roboto", sans-serif;
+    min-width: 400px;
 }
 
 .header {
@@ -53,6 +54,7 @@ body {
     background-color: #1F2937;
     display: flex;
     padding: 50px 100px;
+    flex-wrap: wrap;
 }
 
 .main-text {
@@ -108,6 +110,7 @@ body {
     gap: 50px;
     padding-top: 50px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .info .text {
@@ -124,7 +127,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-width: 400px;
 }
 
 .quote p {
@@ -192,4 +194,6 @@ body {
     color: white;
     height: 10vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
