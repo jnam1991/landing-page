@@ -124,6 +124,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-width: 400px;
 }
 
 .quote p {
@@ -154,6 +155,7 @@ body {
     border-radius: 10px;
     display: flex;
     justify-content: flex-start;
+    flex-shrink: .5;
 }
 
 .cta-text {
@@ -172,7 +174,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
+    margin: auto;
 }
 
 .cta .text {
